@@ -1,8 +1,6 @@
-# JobApplicationTracker
-A Java Swing desktop application to manage job applications using SQLite and JDBC, with search, edit, delete, and status tracking features.
 # Job Application Tracker
 
-A Java desktop application that helps users organize and track their job applications.
+A Java Swing desktop application to manage and track job applications using an SQLite database.
 
 ## Features
 - Add new job applications
@@ -10,22 +8,28 @@ A Java desktop application that helps users organize and track their job applica
 - Search by company name or job role
 - Track application statuses: Applied, Interview, and Selected
 - Store application and interview dates
-- Save records in an SQLite database
 - Dashboard to view application status counts
 - Validate date inputs
+- Save application records using SQLite
 
-## Technologies Used
+## Technologies
 - Java
 - Java Swing
-- SQLite
 - JDBC
+- SQLite
 - Eclipse IDE
 
 ## How to Run
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open the project in Eclipse.
 3. Add the SQLite JDBC driver to the project's build path.
 4. Run `JOBTRACK.java`.
 
-## Project Purpose
-This project was built to practice Java programming, GUI development, database connectivity, and CRUD operations.
+## Purpose
+Built as a learning project to practice Java GUI development, database connectivity, and CRUD operations.
+
+## Author
+Kade Jyothi
+
+## GitHub Repository
+https://github.com/kade-jyothi/JobApplicationTracker
